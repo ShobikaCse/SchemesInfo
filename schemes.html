@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="schemes.css">
+</head>
+<body>
+    <div class="back">
+        <div class="register">
+            <img src=""width="50px">
+        </div>
+        <div><h1 style="color:orangered">SchemeInfo</h1></div>
+        <nav>
+            <ul>
+                    <li><a href="http://127.0.0.1:5500/register.html">Register</a></li>
+                    <li><a href="#">Schemes Available</a></li>
+                    <li><a href="#">Save for later</a></li>
+            </ul>
+        </nav>
+        </div>
+        
+        <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="slide1.jpeg" style="width:100%">
+            <div class="text"></div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="childslide.jpg" style="width:100%">
+            <div class="text"></div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="Home-loan.jpeg" style="width:100%">
+            <div class="text"></div>
+          </div>
+          
+          </div>
+          <br>
+          
+          <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+          </div>
+          
+          <script>
+          let slideIndex = 0;
+          showSlides();
+          
+          function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+          }
+          </script>
+
+</body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>SchemesInformation</title>
+    <link rel="stylesheet" href="schmes.css">
+    <link rel="stylesheet" href="slides.html">
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+                <div class="col1">
+                    <h2>
+                        Looking for Government of India Scheme!!
+                    </h2>
+                    <br>
+                    <div class="small"><p>
+                        All info about Government of India Schemes are available.Here's an easy way to find all schemes!!All schemes are updated 
+                        time-to-time!!!!.Inorder to create awarness about schemes,loans and funds you can click the below link  for morre details.
+                    </p>
+                    <h3>Select Category:</h3>
+                    </div>
+                    </div>
+            </div>
+        </div>
+       
+        <div id="schemes">
+          <div class="container">
+            <div class="row">
+                <div class="col3">
+                    <img src="studentsbg.png" width="200px">
+                    <a href="http://127.0.0.1:5500/studentlink.html" target="_blank">Student's schemes</a>
+                </div>
+                <div class="col3">
+                    <img src="farmersbg2.png"width="200px" >
+                    
+                    <a href="http://127.0.0.1:5500/farmerslink.html" target="_blank">Farmer's schemes</a>
+                </div>
+                <div class="col3">
+                    <img src="womenbg1.png" width="200px">
+                    
+                    <a href="http://127.0.0.1:5500/womenlink.html" target="_blank">Woman's schemes</a>
+                </div>
+                <div class="col3">
+                    <img src="sportsbg.png"width="200px">
+                    
+                        <a href="http://127.0.0.1:5500/sportslink.html" target="_blank">Sports-related schemes</a>
+                </div>
+                <div class="col3">
+                    <img src="startupbg.png"width="200px">
+                    
+                    <a href="http://127.0.0.1:5500/startuplink.html" target="_blank">Startup-related schemes</a>
+                </div>
+                <div class="col3">
+                    <img src="traders1bg.png"width="200px">
+                    
+                        <a href="http://127.0.0.1:5500/traders.html" target="_blank">Traders-related schemes</a>
+                </div>
+              </div>
+            </div>
+          </div>
+    <!-----footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h8>
+                        For enquiry<br>
+                        Contact:123445678
+                        <br> Gmail:schemesinfo@gmail.com
+                    </h8>
+                </div>
+                <div class="footer-col-2">
+                    <ul>
+                        <li>Share new schemes with us!</li>
+                        <li>Share your views!</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            Copyright @ 13.04.23
+          </hr>
+        </div>
+    </div>
+</body>
+</html>
