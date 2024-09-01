@@ -1,1 +1,1 @@
-My project is integrating all union government schemes in common platform.It is developed using HTML and CSS
+A website to all union government schemes.It is developed using HTML and CSS
